@@ -36,6 +36,7 @@ class MagicPacket {
 			$this->magic_packet .= $encoded_mac;
 		}
 		
+		return $this->magic_packet;		
 	}
 	
 	function get_magic_packet() {
